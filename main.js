@@ -124,12 +124,7 @@ function my_keydown(e) {
     }
 }
 function left() {
-    if (player_x >= 0) {
-        player_x = player_x - block_img_width;
-        console.log("block image width = " + block_img_width);
-        console.log("When Left arrow key is pressed, X = " + player_x + " , Y = " + player_y);
-        canvas.remove(player_object);
-        player_update();
+  
     }
 
 }
